@@ -1,0 +1,51 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark nav-color nav-letter h5   ">
+  <mdb-navbar-brand>
+      <a class="navbar-brand" href="/">
+          <img src="assets/images/logo.jpg" height="100" class="d-inline-block align-top" alt="">
+
+      </a>
+  </mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto ">
+          <li class="nav-item active">
+              <a routerLink="/" class="nav-link waves-light " mdbWavesEffect translate><i class="fa fa-home" aria-hidden="true"></i>NAV.HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a routerLink="/about" class="nav-link waves-light " mdbWavesEffect translate>NAV.COMPANY</a>
+          </li>
+          <li class="nav-item">
+              <a  routerLink="/products" class="nav-link waves-light" mdbWavesEffect translate>NAV.PRODUCTS</a>
+          </li>
+
+
+
+      </ul>
+      <!-- Links -->
+
+<!-- Search form -->
+<ul class="navbar-nav justify-content-end ">
+    <li class="nav-item">
+        <a   class="nav-link waves-light" mdbWavesEffect (click)="translate.use('gr')"> <img class="-100" src="assets/images/lang/gr.png" alt=""></a>
+    </li>
+    <li class="nav-item">
+        <a   class="nav-link waves-light" mdbWavesEffect (click)="translate.use('en')"> <img class="" src="assets/images/lang/eng.png" alt=""></a>
+    </li>
+</ul>
+
+<ul class="navbar-nav justify-content-end ">
+
+  <li class="nav-item">
+      <a routerLink="/contact" class="nav-link" href="#!" translate><i class="fa fa-phone"></i>NAV.CONTACT</a>
+  </li>
+</ul>
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
+
+

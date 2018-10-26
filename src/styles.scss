@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=greek-ext');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&subset=greek-ext');
+
+html,body {
+  //background: #86f151 !important;
+ //background: #FF8000 !important;
+ background: #86f151 !important;
+ //font-family: 'Roboto Condensed', sans-serif !important;
+ font-family: 'Fira Sans Condensed', sans-serif !important;
+  color: #464646 !important;
+  width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+
+@media only screen and (max-width: 767px) {
+ .logo {
+ height: 70px;
+ }
+ }
+
+.nav-color {
+ // background: #FF8000;
+  background: #FF8000 !important;
+
+}
+
+.nav-letter a {
+ color: white !important;
+ //color: rgb(230, 115, 0) !important;
+
+}
+
+.container {
+ padding: 0 !important;
+
+}
+.m-height {
+ min-height: 100vh !important;
+}
+.main-bg {
+ background-color: white;
+}
+
